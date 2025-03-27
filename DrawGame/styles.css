@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    color: white;
+}
+
+h1 {
+    color: #80775C;
+}
+
+label {
+    color: #80775C;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+}
+
+#toolbar {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 80px;
+    background: linear-gradient(to bottom, rgba(252,255,244,1) 0%,rgba(233,233,206,1) 100%);
+}
+
+#toolbar * {
+    margin-bottom: 6px;
+}
+
+#toolbar input {
+    width: 90%;
+}
+
+#toolbar button {
+    background-color: #80775C;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 2px;
+}
